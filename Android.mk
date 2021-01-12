@@ -1,5 +1,6 @@
 LOCAL_PATH := $(call my-dir)
 
+ifneq ($(BUILD_WITHOUT_VENDOR), true)
 ifneq ($(filter $(QSSI_SUPPORTED_PLATFORMS),$(TARGET_BOARD_PLATFORM)),)
 
 #Disable WFD for selected 32-bit targets
@@ -15,4 +16,5 @@ include $(call all-makefiles-under, $(LOCAL_PATH))
 endif
 endif
 
+endif
 endif
