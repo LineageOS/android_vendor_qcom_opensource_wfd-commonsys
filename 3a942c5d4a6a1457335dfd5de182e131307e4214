@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "326ec716_a0dd56fe",
+        "filename": "libaac/Android.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 24,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2022-08-26T13:13:29Z",
+      "side": 1,
+      "message": "Doesn\u0027t this build just the 64bit version? It will break existing targets that expect 32bit",
+      "revId": "3a942c5d4a6a1457335dfd5de182e131307e4214",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
