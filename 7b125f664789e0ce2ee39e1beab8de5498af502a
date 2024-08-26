@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4d765c46_05f3470c",
+        "filename": "Android.mk",
+        "patchSetId": 1
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 4550
+      },
+      "writtenOn": "2024-08-26T13:34:49Z",
+      "side": 0,
+      "message": "We no longer have this guard, not sure if this causes any issues on older SoCs. We\u0027ll have to guard it with soong namespace if needed",
+      "revId": "7b125f664789e0ce2ee39e1beab8de5498af502a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
